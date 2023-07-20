@@ -1,8 +1,63 @@
-import React from 'react';
-import './style.css';
+import {React,useState} from "react";
+// import "../../index.css";
+import { Link } from "react-router-dom";
+import { close, menu, logo } from "../../assets";
 
 export default function Navbar() {
+  const [active, setActive] = useState();
+
+  const navLinks = [
+    {
+      id: "top",
+      title: "TOP",
+    },
+    {
+      id: "whatWeDo",
+      title: "WHAT WE DO",
+    },
+    {
+      id: "about",
+      title: "ABOUT US",
+    },
+    {
+      id: "portfolio",
+      title: "PORTFOLIO",
+    },
+    {
+      id: "contact",
+      title: "CONTACT",
+    },
+  ];
+
   return (
-    <div>Navbar</div>
-  )
+    <nav className="px-6 w-full flex items-center py-5 z-20">
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+        {/* main navBar logo  */}
+        <Link
+          to="/"
+          className="flex items-center gap-20"
+          onClick={() => {
+            setActive("");
+            window.scrollTo(0,0)
+          }}
+        >
+          <img src={logo} alt="logo" className="h-[30px] w-auto object-contain cursor-pointer"/>
+        </Link>
+        {/* mobile navbar  */}
+        <ul className='list-none hidden sm:flex flex-row gap-10'>
+          {navLinks.map((nav) => (
+            <li
+              key={nav.id}
+              className={`${
+                active === nav.title ? "text-secondary" : "text-black"
+              } hover:text-danger text-[18px]  cursor-pointer`}
+              onClick={() => setActive(nav.title)}
+            >
+              <a href={`#${nav.id}`}>{nav.title}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </nav>
+  );
 }
