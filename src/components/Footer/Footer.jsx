@@ -30,7 +30,7 @@ export default function Footer() {
   ];
 
   return (
-    <nav className="px-6 w-full flex items-center py-5 z-20">
+    <footer className="px-6 w-full flex items-center static bottom-0 py-5 z-20 mt-[300px]">
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
        
         {/* mobile navbar  */}
@@ -39,7 +39,7 @@ export default function Footer() {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-secondary" : "text-black"
+                active === nav.title ? "text-black" : "text-black"
               } hover:text-danger text-[18px]  cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
@@ -59,6 +59,6 @@ export default function Footer() {
           <img src={logo} alt="logo" className="h-[30px] w-auto object-contain cursor-pointer"/>
         </Link>
       </div>
-    </nav>
+    </footer>
   )
 }

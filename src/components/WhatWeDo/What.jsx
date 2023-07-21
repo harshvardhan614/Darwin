@@ -19,7 +19,7 @@ export default function What() {
             ウェブサイトの制作から <br />
             システムの開発まで幅広く
             </p>
-            <img src={jupiter} alt="no img" className=' absolute right-[-80px] top-[-120px] w-[200px] h-auto z-30 overflow-visible'/>
+            <img src={jupiter} alt="no img" className=' absolute right-[-68px] top-[-120px] w-[200px] h-auto z-30 overflow-visible'/>
           </div>
         </div>
         <div className="flex items-center z-10 ">
@@ -56,7 +56,7 @@ export default function What() {
           </div>
         </div>
         <div className="absolute left-0 z-0 ">
-            <img src={areaGRey} alt="no img" className='w-[800px] h-auto'/>
+            <img src={areaGRey} alt="no img" className='w-[1000px] h-auto'/>
         </div>
       </div>
     </div>
