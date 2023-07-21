@@ -2,7 +2,7 @@ import React from "react";
 import "../../index.css";
 import { darwinPage, logo,  } from "../../assets";
 
-export default function about() {
+export default function About() {
   return (
     <div className="flex items-center justify-center w-full max-w-7xl  my-[300px] z-20 ml-[40px]">
       <img src={darwinPage} alt="no img" className="w-[600px] h-auto object-contain "/>
