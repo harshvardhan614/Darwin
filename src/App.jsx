@@ -17,34 +17,34 @@ function App() {
     // console.log("loaded");
   });
   return (
-    <>
-      {!isLoaded ? (
-        <Loader />
-      ) : (
-        <>
-          <BrowserRouter>
-            <Navbar />
-            <Hero />
-            <What />
-            <About />
-            <Portfolio />
-            <Contact />
-            <Footer />
-          </BrowserRouter>
-        </>
-      )}
-    </>
     // <>
-    // <BrowserRouter>
-    //   <Navbar />
-    //   <Hero />
-    //   <What />
-    //   <About />
-    //   <Portfolio />
-    //   <Contact />
-    //   <Footer />
-    // </BrowserRouter>
+    //   {!isLoaded ? (
+    //     <Loader />
+    //   ) : (
+    //     <>
+    //       <BrowserRouter>
+    //         <Navbar />
+    //         <Hero />
+    //         <What />
+    //         <About />
+    //         <Portfolio />
+    //         <Contact />
+    //         <Footer />
+    //       </BrowserRouter>
+    //     </>
+    //   )}
     // </>
+    <>
+    <BrowserRouter>
+      <Navbar />
+      <Hero />
+      <What />
+      <About />
+      <Portfolio />
+      <Contact />
+      <Footer />
+    </BrowserRouter>
+    </>
   );
 }
 
