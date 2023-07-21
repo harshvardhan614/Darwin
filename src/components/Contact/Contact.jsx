@@ -40,37 +40,37 @@ export default function Contact() {
       </div>
       <div >        
         <form className=" flex flex-col gap-[20px] px-[20px]" data-aos="fade-left">
-          <tr className="flex items-center justify-end">
+          <tr className="flex items-center justify-end text-[0.85rem]">
           <label className="mr-[20px]">
           御社名           
           </label>
           <input type="text "  className="w-[300px] h-8 "/>
           </tr>
-          <tr className="flex items-center justify-end">
+          <tr className="flex items-center justify-end text-[0.85rem]">
           <label className="mr-[20px]">
           ご担当者名            
           </label>
           <input type="text" className="w-[300px]  h-8 "/>
           </tr>
-          <tr className="flex items-center justify-end">
+          <tr className="flex items-center justify-end text-[0.85rem]">
           <label className="mr-[20px]">
           ご連絡先            
           </label>
           <input type="text" className="w-[300px]  h-8 "/>
           </tr>  
-          <tr className="flex items-center justify-end">
+          <tr className="flex items-center justify-end text-[0.85rem]">
           <label className="mr-[20px]">
           お問い合わせカテゴリ            
           </label>
           <input type="text" className="w-[300px]  h-8"/>
           </tr>
-          <tr className="flex items-center justify-end">
+          <tr className="flex items-center justify-end text-[0.85rem]">
           <label className="mr-[20px]">
           御社業種            
           </label>
           <input  type="text" className="w-[300px]  h-8" />
           </tr>
-          <tr className="flex items-start justify-end">
+          <tr className="flex items-start justify-end text-[0.85rem]">
           <label className="mr-[20px]">
           お問い合わせ内容  
           </label>

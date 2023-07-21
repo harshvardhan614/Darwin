@@ -6,21 +6,45 @@ import What from "./components/WhatWeDo/What";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import "./index.css"
+import "./index.css";
+import { useEffect, useState } from "react";
+import Loader from "./utils/Loader/Loader";
 
 function App() {
+  const [isLoaded, setIsLoaded] = useState(false);
+  window.addEventListener("load", () => {
+    setIsLoaded(true);
+    // console.log("loaded");
+  });
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
-        <Hero />
-        <What />
-        <About />
-        <Portfolio />
-        <Contact />
-        <Footer />
-      </BrowserRouter>
+      {!isLoaded ? (
+        <Loader />
+      ) : (
+        <>
+          <BrowserRouter>
+            <Navbar />
+            <Hero />
+            <What />
+            <About />
+            <Portfolio />
+            <Contact />
+            <Footer />
+          </BrowserRouter>
+        </>
+      )}
     </>
+    // <>
+    // <BrowserRouter>
+    //   <Navbar />
+    //   <Hero />
+    //   <What />
+    //   <About />
+    //   <Portfolio />
+    //   <Contact />
+    //   <Footer />
+    // </BrowserRouter>
+    // </>
   );
 }
 
