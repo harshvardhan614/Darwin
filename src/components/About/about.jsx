@@ -8,7 +8,7 @@ export default function About() {
     Aos.init({duration:1500})
   },[])
   return (
-    <div className="flex items-center justify-center w-full max-w-7xl  my-[200px] z-20" data-aos="fade-up">
+    <div className="flex items-center justify-center w-full max-w-7xl  my-[200px] z-20 mx-auto" data-aos="fade-up">
       <img src={darwinPage} alt="no img" className="w-[580px] h-auto object-contain pb-[20px] "/>
       <div className="flex flex-col items-start gap-[20px]">
       <img src={logo} alt="logo" className="h-[50px] w-auto object-contain mb-[20px] "/>

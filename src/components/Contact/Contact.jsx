@@ -30,7 +30,7 @@ export default function Contact() {
     Aos.init({ duration: 1500 });
   }, []);
   return (
-    <div className="flex items-center  w-full max-w-7xl static z-20 mb-[300px]">
+    <div className="flex items-center  w-full max-w-7xl static z-20 mb-[300px] mx-auto">
       <div className="absolute right-0 z-0 ">
         <img src={blueContact} alt="no img" className="w-[750px] h-auto" />
       </div>
