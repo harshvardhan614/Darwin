@@ -4,9 +4,9 @@ import { darwinPage, logo,  } from "../../assets";
 
 export default function about() {
   return (
-    <div className="flex items-center justify-center w-full max-w-7xl  my-[200px] z-20">
-      <img src={darwinPage} alt="no img" className="w-[580px] w-auto object-contain pb-[20px] "/>
-      <div className="flex flex-col items-start gap-[20px]">
+    <div className="flex items-center justify-center w-full max-w-7xl  my-[300px] z-20 ml-[40px]">
+      <img src={darwinPage} alt="no img" className="w-[600px] h-auto object-contain "/>
+      <div className="flex flex-col items-start gap-[10px] ml-[-100px] z-20">
       <img src={logo} alt="logo" className="h-[50px] w-auto object-contain mb-[20px] "/>
       <p className="ml-[40px]">我々は、ウェブ制作、AIソリューション、そしてweb3テクノロジー <br />
        に特化し、ビジネスの革新と成功をサポートしています。</p>

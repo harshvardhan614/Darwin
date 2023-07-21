@@ -11,61 +11,73 @@ function RightMark(){
 }
 export default function Contact() {
   return (
-    <div className=" flex items-center  w-full max-w-7xl static ">
-      <div className="left ml-28">
+    <div className="flex flex-col my-[300px] w-full max-w-7xl static z-20">
+      <div className=" flex items-start justify-center gap-[30px] z-10">
+      <div className="left" >
         <div className="left-content flex flex-col relative">
-          <p className="text-2xl ml-10 font-bold">CONTACT</p>
+          <p className="text-[42px] font-500">CONTACT</p>
         </div>
         <div className="absolute ml-36 text-lg w-10 font-medium">
           Web System
         </div>
         <p className="font-bold text-2xl mt-10 ml-10">WEB 3.0</p>
-        <p className="ml-10 font-medium">AI SYSTEM SOLUTION</p>
-        <div className="absolute ml-36 text-lg w-10 font-bold">APPS</div>
-        <div className="absolute ml-36 text-lg w-10 font-medium mt-5">
+        <div className="ml-10 text-[36px] w-full">AI SYSTEM SOLUTION</div>
+        <div className="absolute ml-36 text-[28px] w-10 font-bold">APPS</div>
+        <div className="absolute ml-36 text-[24px] w-10 font-medium mt-5">
           android
         </div>
         <div className="absolute ml-36 text-lg w-10 font-medium mt-10">ios</div>
       </div>
-      <div className="rig ml-[500px] z-10">
-        {/* <img src={blueContact} className='right-0 absolute'/> */}
-        <form className="w-[400px]">
-          <label className="mr-5">
-            {" "}
-            Name
-            <input type="text "  className="w-[300px] h-8 ml-7"/>
+      <div className=" z-10">        
+        <form className="align-right">
+          <tr>
+          <label className="mr-[25px] align-right">
+          御社名           
           </label>
-          <label className="mr-5">
-            {" "}
-            Email
-            <input type="text" className="w-[300px] mt-4 h-8 ml-8"/>
+          <input type="text "  className="w-[300px] h-8 ml-7"/>
+          </tr>
+          <tr>
+          <label className="mr-[25px] align-right">
+          ご担当者名            
           </label>
-          <label className="mr-5">
-            {" "}
-            Contact
-            <input type="text w-[300px] ml-5" className="w-[300px] mt-4 h-8 ml-5"/>
+          <input type="text" className="w-[300px] mt-4 h-8 ml-8"/>
+          </tr>
+          <tr>
+          <label className="mr-[25px]">
+          ご連絡先            
           </label>
-          <label className="mr-5">
-            {" "}
-            Address
-            <input type="text w-[300px] ml-5" className="w-[300px] mt-4 h-8 ml-4"/>
+          <input type="text" className="w-[300px] mt-4 h-8 ml-5"/>
+          </tr>  
+          <tr>
+          <label className="mr-[25px]">
+          お問い合わせカテゴリ            
           </label>
-          <label className="mr-5">
-            {" "}
-            Contact
-            <input type="text w-[300px] mt-4 h-8 ml-5" className="w-[300px] mt-4 h-8 ml-5" />
+          <input type="text" className="w-[300px] mt-4 h-8 ml-4"/>
+          </tr>
+          <tr>
+          <label className="mr-[25px]">
+          御社業種            
           </label>
-          <label className="mr-5">
-            {" "}
-            Message
-            <input type="text w-[300px] mt-4 h-8 ml-5" className="w-[300px] mt-4 h-20 ml-4 mb-5" />
+          <input  type="text" className="w-[300px] mt-4 h-8 ml-5" />
+          </tr>
+          <tr>
+          <label className="mr-[25px]">
+          お問い合わせ内容  
           </label>
+          <input type="text" className="w-[300px] mt-4 h-[100px] ml-4 mb-5" />
+          </tr>         
+          
+          
           <Link to="/what" className='w-[320px] flex items-center justify-between cursor-pointer mt-[4px] ml-16 text-white bg-black p-3 mb-5'>
                <p >Send form </p>
                 <RightMark className='bg-white'/>
             </Link>
         </form>
       </div>
+      </div>
+      <div className="absolute right-0 z-0 ">
+            <img src={blueContact} alt="no img" className='w-[750px] h-auto'/>
+        </div>
     </div>
   );
 }

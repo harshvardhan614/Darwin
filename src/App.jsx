@@ -18,7 +18,7 @@ function App() {
         <About />
         <Portfolio />
         <Contact />
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </>
   );

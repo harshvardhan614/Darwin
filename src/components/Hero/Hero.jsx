@@ -27,7 +27,7 @@ export default function Hero() {
             
         </div>
         <div className="absolute right-0 z-0">
-            <img src={blueTop} alt="no img" className='w-[800px] h-auto'/>
+            <img src={blueTop} alt="no img" className='w-[750px] h-auto'/>
         </div>
         
 
