@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { blueContact } from "../../assets";
 import { Link } from "react-router-dom";
+import Aos from "aos";
+import 'aos/dist/aos.css';
+
 function RightMark(){
   return (
       <svg width="40" height="13" viewBox="0 0 56 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -10,13 +13,16 @@ function RightMark(){
   ) 
 }
 export default function Contact() {
+  useEffect(()=>{
+    Aos.init({duration:1500})
+  },[])
   return (
     <div className="flex  flex-col  w-full max-w-7xl static z-20">
       <div className="absolute right-0 z-0 ">
             <img src={blueContact} alt="no img" className='w-[750px] h-auto'/>
         </div>
       <div className="flex items-start justify-center gap-[30px] z-10 my-[300px]">
-      <div className="left" >
+      <div className="left" data-aos="fade-right" >
         <div className="left-content flex flex-col relative">
           <p className="text-[54px] font-500">CONTACT</p>
         </div>
@@ -32,7 +38,7 @@ export default function Contact() {
         <div className="absolute ml-36 text-lg w-10 font-medium mt-10">ios</div>
       </div>
       <div >        
-        <form className=" flex flex-col gap-[20px] px-[20px]">
+        <form className=" flex flex-col gap-[20px] px-[20px]" data-aos="fade-left">
           <tr className="flex items-center justify-end">
           <label className="mr-[20px]">
           御社名           
