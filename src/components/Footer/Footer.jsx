@@ -30,7 +30,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="px-6 w-full flex items-center static bottom-0 py-5 z-20 mt-[300px]">
+    <footer className="px-6 w-full flex items-center static bottom-0 py-5 z-20 mt-[30px]">
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
        
         {/* mobile navbar  */}
