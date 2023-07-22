@@ -30,51 +30,51 @@ export default function Contact() {
         <div className="absolute ml-36 text-lg w-10 font-medium">
           Web System
         </div>
-        <p className="font-bold text-2xl mt-10 ml-10">WEB 3.0</p>
-        <div className="text-[36px] w-full">AI SYSTEM SOLUTION</div>
+        <p className="font-[500] text-2xl mt-10 ">WEB 3.0</p>
+        <div className="text-[22px] w-full">AI SYSTEM SOLUTION</div>
         <div className="absolute ml-36 text-[28px] w-10 font-bold">APPS</div>
-        <div className="absolute ml-36 text-[24px] w-10 font-medium mt-5">
+        <div className="absolute ml-36 text-[24px] w-10 font-medium mt-[20px]">
           android
         </div>
         <div className="absolute ml-36 text-lg w-10 font-medium mt-10">ios</div>
       </div>
       <div >        
-        <form className=" flex flex-col gap-[20px] px-[20px]" data-aos="fade-left">
-          <tr className="flex items-center justify-end text-[0.85rem]">
+        <form className=" flex flex-col gap-[25px] px-[20px]" data-aos="fade-left">
+          <tr className="flex items-center justify-end text-[0.75rem]">
           <label className="mr-[20px]">
           御社名           
           </label>
-          <input type="text "  className="w-[300px] h-8 "/>
+          <input type="text "  className="w-[330px] h-10 "/>
           </tr>
-          <tr className="flex items-center justify-end text-[0.85rem]">
+          <tr className="flex items-center justify-end text-[0.75rem]">
           <label className="mr-[20px]">
           ご担当者名            
           </label>
-          <input type="text" className="w-[300px]  h-8 "/>
+          <input type="text" className="w-[330px]  h-10 "/>
           </tr>
-          <tr className="flex items-center justify-end text-[0.85rem]">
+          <tr className="flex items-center justify-end text-[0.75rem]">
           <label className="mr-[20px]">
           ご連絡先            
           </label>
-          <input type="text" className="w-[300px]  h-8 "/>
+          <input type="text" className="w-[330px]  h-10 "/>
           </tr>  
-          <tr className="flex items-center justify-end text-[0.85rem]">
+          <tr className="flex items-center justify-end text-[0.75rem]">
           <label className="mr-[20px]">
           お問い合わせカテゴリ            
           </label>
-          <input type="text" className="w-[300px]  h-8"/>
+          <input type="text" className="w-[330px]  h-10"/>
           </tr>
-          <tr className="flex items-center justify-end text-[0.85rem]">
+          <tr className="flex items-center justify-end text-[0.75rem]">
           <label className="mr-[20px]">
           御社業種            
           </label>
-          <input  type="text" className="w-[300px]  h-8" />
+          <input  type="text" className="w-[330px]  h-10" />
           </tr>
-          <tr className="flex items-start justify-end text-[0.85rem]">
+          <tr className="flex items-start justify-end text-[0.75rem]">
           <label className="mr-[20px]">
           お問い合わせ内容  
           </label>
-          <input type="text" className="w-[300px]  h-[100px] " />
+          <input type="text" className="w-[330px]  h-[100px] " />
           </tr>         
           
           <div className="flex items-start justify-end">
