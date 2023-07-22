@@ -4,7 +4,7 @@ import { areaGRey, jupiter, mars, orange, tomato } from "../../assets";
 
 export default function What() {
   return (
-    <div className="flex items-center  w-full max-w-7xl static my-[120px] z-20">
+    <div className="flex items-center  w-full max-w-7xl static my-[120px] z-20 mx-auto">
       <div className="flex flex-col items-center w-full ">
         <div className="flex items-center z-10">
           <div className="boxHead w-[600px]">
@@ -19,7 +19,7 @@ export default function What() {
             ウェブサイトの制作から <br />
             システムの開発まで幅広く
             </p>
-            <img src={jupiter} alt="no img" className=' absolute right-[-68px] top-[-120px] w-[200px] h-auto z-30 overflow-visible'/>
+            <img src={jupiter} alt="no img" className=' absolute right-[-36px] top-[-120px] w-[200px] h-auto z-30 overflow-visible'/>
           </div>
         </div>
         <div className="flex items-center z-10 ">

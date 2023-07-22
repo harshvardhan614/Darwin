@@ -12,10 +12,14 @@ import Loader from "./utils/Loader/Loader";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
-  window.addEventListener("load", () => {
-    setIsLoaded(true);
-    // console.log("loaded");
-  });
+  
+  // window.addEventListener("test" , () => {
+    setTimeout(() => {
+      setIsLoaded(true);
+    console.log("loaded");
+    }, "2000");
+    
+  // });
   return (
     <>
       {!isLoaded ? (
