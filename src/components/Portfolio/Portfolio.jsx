@@ -49,7 +49,7 @@ export default function Portfolio() {
     <>
       {/* <div className="flex flex-col w-full max-w-7xl  static my-[200px] z-20"> */}
       <div className={`flex flex-col w-full max-w-7xl  static my-[200px] z-20 ${isOpen? 'blur-sm': ''} mx-auto`}>
-        <div className="mx-[100px] z-10">
+        <div className="mx-[100px] z-10 PortInside">
           <div className="boxHead w-[600px] z-10 " data-aos="fade-down">
             <h1>WHAT WE CREATED</h1>
             <p>

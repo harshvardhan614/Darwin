@@ -6,7 +6,7 @@ export default function What() {
   return (
     <div className="flex items-center  w-full max-w-7xl static my-[120px] z-20 mx-auto">
       <div className="flex flex-col items-center w-full ">
-        <div className="flex items-center z-10">
+        <div className="BoxOut flex items-center z-10">
           <div className="boxHead w-[600px]">
             <h1>OUR AREA</h1>
             <p>
@@ -19,17 +19,17 @@ export default function What() {
             ウェブサイトの制作から <br />
             システムの開発まで幅広く
             </p>
-            <img src={jupiter} alt="no img" className=' absolute right-[-36px] top-[-120px] w-[200px] h-auto z-30 overflow-visible'/>
+            <img src={jupiter} alt="no img" className='jupi absolute right-[-36px] top-[-120px] w-[200px] h-auto z-30 overflow-visible'/>
           </div>
         </div>
-        <div className="flex items-center z-10 ">
+        <div className="BoxOut flex items-center z-10 ">
           <div className="boxIn relative">
             <h1>AI </h1>
             <p>
             AIを使ったサービス開発、業務効率 <br />
             化、アルゴリズム開発など。
             </p>
-            <img src={mars} alt="no img" className=' absolute right-[-15px] top-[-45px] w-[100px] h-auto z-30 overflow-visible'/>
+            <img src={mars} alt="no img" className='mars absolute right-[-15px] top-[-45px] w-[100px] h-auto z-30 overflow-visible'/>
           </div>
           <div className="boxIn ">
             <h1>APPs</h1>
@@ -40,18 +40,18 @@ export default function What() {
             
           </div>
         </div>
-        <div className="flex items-center z-10 mr-[-120px]">
+        <div className="BoxOut flex items-center z-10 mr-[-120px] boxInMore">
           <div className="boxIn relative">
             <h1>web3.0 </h1>
             <p>
             最先端のweb3.0領域のサービス開発 <br />
             やコンサルティング。
             </p>
-            <img src={tomato} alt="no img" className=' absolute left-[40px] bottom-[-140px] w-[180px] h-auto z-30 overflow-visible'/>
+            <img src={tomato} alt="no img" className='jupi absolute left-[40px] bottom-[-140px] w-[180px] h-auto z-30 overflow-visible'/>
           </div>
-          <div className="boxIn relative">
+          <div className="boxIn relative ">
             <h1>and more.</h1>
-            <img src={orange} alt="no img" className=' absolute right-[40px] w-[100px] h-auto z-30 overflow-visible'/>
+            <img src={orange} alt="no img" className='mars absolute right-[40px] w-[100px] h-auto z-30 overflow-visible'/>
             
           </div>
         </div>

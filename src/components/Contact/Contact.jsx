@@ -35,7 +35,7 @@ export default function Contact() {
         <img src={blueContact} alt="no img" className="w-[750px] h-auto" />
       </div>
       <div className="flex flex-col w-full max-w-7xl  z-10">
-        <div className="flex items-start justify-center gap-[80px] ">
+        <div className="contact flex items-start justify-center gap-[80px] ">
           <div className="left" data-aos="fade-right">
             <div className="left-content flex flex-col relative">
               <p className="text-[64px] font-500">CONTACT</p>

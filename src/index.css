@@ -14,7 +14,15 @@
   /* font-family: "Poppins", sans-serif; */
   font-family: 'Jost', sans-serif;
   scroll-behavior: smooth;
+  position: relative;
+  max-width: 1350px;
 }
+
+
+html{
+  background-color: white;
+}
+
 
 body {
   background: linear-gradient(90deg, #FFEEEE 0%, #DDEFBB 100%);
@@ -31,7 +39,7 @@ body {
 
 
 .boxHead{
-  padding: 0px 24px;
+  padding: 10px 24px;
   background-color: none;
   color: black;
   display: flex;
@@ -58,8 +66,8 @@ body {
   display: flex;
   align-items: center;
   border: 2px solid #000000;
-  min-width: 600px;
-  min-height: 150px;
+  width: 600px;
+  height: 150px;
 }
 
 .boxIn h1 {
@@ -89,4 +97,205 @@ body {
 
 .boxPort .rightIcon{
   justify-content: end;
+}
+
+tr{
+  margin: 0;
+}
+
+
+@media (min-width:1400px) {
+
+  *{
+    margin: 0 auto;
+  }
+
+.boxInMore{
+  margin-right: 0px;
+}  
+
+.boxPort{
+  margin: 0;
+}
+
+}  
+
+
+@media (max-width:1150px) {
+
+.BoxOut{
+  flex-direction: column;
+  margin-right: 0;
+}
+
+.boxIn{
+  margin-right: 0;
+}
+
+.jupi{
+  display: none;
+} 
+
+
+.darwinAbout{
+  flex-direction: column;
+}
+
+}
+
+@media (max-width:1024px) {
+
+  .darwinAbout{
+    padding: 50px 0;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+  .darwinAbout img{
+    width: 400px;
+  }
+
+  .darwinAboutDATA{
+     width: 400px;
+  }
+
+  .darwinAboutDATA p{
+    margin-left: 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .BoxOut .boxHead{
+     width: 500px;
+  }
+
+  .boxIn {
+    padding: 16px;    
+    width: 500px;
+    height: 120px;
+}
+
+}  
+
+@media (max-width:768px) {
+
+  .darwinAbout img{
+    width: 270px;
+  }
+
+  .darwinAboutDATA{
+     width: 270px;
+  }
+
+  .darwinAboutDATA p{
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .PortInside{
+    margin-right: 50px ;
+    margin-left: 50px ;
+  }
+
+.contact{
+  flex-direction: column;
+  align-items: center;
+  gap: 130px;
+}
+
+.BoxOut .boxHead{
+  width: 350px;
+}
+
+.boxIn {   
+ width: 350px;
+ height: 100px;
+ border: 1px solid #000000;
+}
+
+.boxIn h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  padding-right: 16px;
+}
+
+.boxIn p {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.boxHead h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.boxHead p {
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.mars{
+  display: none;
+}
+
+
+}
+
+@media (max-width:425px) {
+.UpHero{
+  margin-top: 0px;
+}
+
+
+.hero{
+  margin-left: 0px;
+}
+
+.headText {
+  font-size: 48px;
+  line-height: 70px;
+}
+
+.hero a{
+  width: 260px;
+}
+
+.BoxOut .boxHead{
+  width: 200px;
+}
+
+.boxHead {
+  padding: 10px ;
+}
+
+.boxHead h1 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.boxHead p {
+  font-size: 9px;
+  line-height: 12px;
+}
+
+.boxIn {   
+ width: 200px;
+ height: 80px;
+ border: 1px solid #000000;
+}
+
+.boxIn h1 {
+  font-size: 20px;
+  line-height: 24px;
+  padding-right: 12px;
+}
+
+.boxIn p {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+
 }
