@@ -38,20 +38,20 @@ export default function Contact() {
         <div className="contact flex items-start justify-center gap-[80px] ">
           <div className="left" data-aos="fade-right">
             <div className="left-content flex flex-col relative">
-              <p className="text-[64px] font-500">CONTACT</p>
+              <p className="text-[64px] font-500 ContactHeading">CONTACT</p>
             </div>
-            <div className="absolute ml-[16rem] text-[24px] w-10 font-medium mt-[-1.5rem]">
+            <div className="absolute ml-[16rem] text-[24px] w-10 font-medium mt-[-1.5rem] ContactHide">
               Web System
             </div>
-            <p className="font-[400] text-2xl mt-10 text-[52px]">WEB 3.0</p>
-            <div className="text-[28px] w-full">AI SYSTEM SOLUTION</div>
-            <div className="absolute ml-[15rem] text-[40px] w-10 font-[500]">
+            <p className="font-[400] text-2xl mt-10 text-[52px] ContactHide">WEB 3.0</p>
+            <div className="text-[28px] w-full ContactHide">AI SYSTEM SOLUTION</div>
+            <div className="absolute ml-[15rem] text-[40px] w-10 font-[500] ContactHide">
               APPS
             </div>
-            <div className="absolute ml-[15rem] text-[26px] w-10 font-medium mt-[2.8rem]">
+            <div className="absolute ml-[15rem] text-[26px] w-10 font-medium mt-[2.8rem] ContactHide">
               android
             </div>
-            <div className="absolute ml-[18.5rem] text-[24px] w-10 font-medium mt-[4.3rem]">
+            <div className="absolute ml-[18.5rem] text-[24px] w-10 font-medium mt-[4.3rem] ContactHide">
               ios
             </div>
           </div>
