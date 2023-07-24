@@ -8,9 +8,9 @@ export default function About() {
     Aos.init({duration:1500})
   },[])
   return (
-    <div className="flex items-center justify-center w-full max-w-7xl  my-[200px] z-20 mx-auto" data-aos="fade-up">
+    <div className="flex items-center justify-center darwinAbout w-full max-w-7xl  my-[200px] z-20 mx-auto" data-aos="fade-up">
       <img src={darwinPage} alt="no img" className="w-[580px] h-auto object-contain pb-[20px] "/>
-      <div className="flex flex-col items-start gap-[20px]">
+      <div className="flex flex-col items-start gap-[20px] darwinAboutDATA">
       <img src={logo} alt="logo" className="h-[50px] w-auto object-contain mb-[20px] "/>
       <p className="ml-[40px]">我々は、ウェブ制作、AIソリューション、そしてweb3テクノロジー <br />
        に特化し、ビジネスの革新と成功をサポートしています。</p>

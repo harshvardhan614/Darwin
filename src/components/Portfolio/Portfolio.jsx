@@ -49,7 +49,7 @@ export default function Portfolio() {
     <>
       {/* <div className="flex flex-col w-full max-w-7xl  static my-[200px] z-20"> */}
       <div className={`flex flex-col w-full max-w-7xl  static my-[200px] z-20 ${isOpen? 'blur-sm': ''} mx-auto`}>
-        <div className="mx-[100px] z-10">
+        <div className="mx-[100px] z-10 PortInside">
           <div className="boxHead w-[600px] z-10 " data-aos="fade-down">
             <h1>WHAT WE CREATED</h1>
             <p>
@@ -58,7 +58,7 @@ export default function Portfolio() {
               のソリューションであれば、ほとんどすべてお受けすることができます。
             </p>
           </div>
-          <div className="my-[100px] z-10" data-aos="fade-right">
+          <div className="my-[100px] z-10 Port" data-aos="fade-right">
             <div className="flex items-center ">
               <div className="boxHead w-[400px] ">
                 <h1 className="text-[48px]">Web2.0</h1>
@@ -109,7 +109,7 @@ export default function Portfolio() {
               </div>
             </div>
 
-            <div className="flex items-center ml-[100px]">
+            <div className="flex items-center ml-[100px] PortMR">
               <div className="boxPort "
               style={{background: `url(${URLs[4]})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center',backgroundSize: 'cover'}}
               onClick={() => {
@@ -130,7 +130,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="my-[100px] z-10 " data-aos="fade-left">
+          <div className="my-[100px] z-10 Port" data-aos="fade-left">
             <div className="flex items-center ">
               <div className="boxHead w-[400px] ">
                 <h1 className="text-[48px]">Web3.0</h1>
@@ -150,7 +150,7 @@ export default function Portfolio() {
                 <RightMark className="rightIcon  bg-white" />
               </div>
             </div>
-            <div className="flex items-center ml-[100px]">
+            <div className="flex items-center ml-[100px] PortMR">
               <div className="boxPort ">
                 <RightMark className="rightIcon  bg-white" />
               </div>
