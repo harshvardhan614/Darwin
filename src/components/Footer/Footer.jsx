@@ -50,7 +50,7 @@ export default function Footer() {
                 key={nav.id}
                 className={`${
                   active === nav.title ? "text-black" : "text-black"
-                } hover:text-danger text-[18px]  cursor-pointer`}
+                } hover:text-danger text-[18px]  cursor-pointer p-[10px]`}
                 onClick={() => setActive(nav.title)}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>

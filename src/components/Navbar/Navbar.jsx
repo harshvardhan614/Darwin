@@ -69,7 +69,7 @@ export default function Navbar() {
                 key={nav.id}
                 className={`${
                   active === nav.title ? "text-secondary" : "text-black"
-                } hover:text-danger text-[18px]  cursor-pointer `}
+                } hover:text-danger text-[18px]  cursor-pointer p-[10px]`}
                 onClick={() => setActive(nav.title)}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>

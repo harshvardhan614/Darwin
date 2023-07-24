@@ -58,7 +58,7 @@ export default function Portfolio() {
               のソリューションであれば、ほとんどすべてお受けすることができます。
             </p>
           </div>
-          <div className="my-[100px] z-10 Port" data-aos="fade-right">
+          <div className="my-[100px] z-10 Port" data-aos="fade-up">
             <div className="flex items-center ">
               <div className="boxHead w-[400px] ">
                 <h1 className="text-[48px]">Web2.0</h1>
@@ -130,7 +130,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="my-[100px] z-10 Port" data-aos="fade-left">
+          <div className="my-[100px] z-10 Port" data-aos="fade-up">
             <div className="flex items-center ">
               <div className="boxHead w-[400px] ">
                 <h1 className="text-[48px]">Web3.0</h1>
