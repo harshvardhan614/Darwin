@@ -40,11 +40,11 @@ export default function Footer() {
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto relative">
        
         {/* mobile navbar  */}
-        <div className={`md:block ${isMobileMenuOpen? 'flex w-full absolute left-0 opacity-100 z-9999999' : 'hidden'}`}>
+        <div className={`md:block ${isMobileMenuOpen? 'flex w-full absolute left-0 opacity-100 z-[99]' : 'hidden'}`}>
 
 
           {/* <ul className='list-none hidden sm:flex flex-row gap-10'> */}
-          <ul className={`list-none md:flex gap-10 md:space-x-4 ${isMobileMenuOpen ? 'flex flex-col mt-[1rem] w-[100%] my-[0.1rem] gap-5 py-2 px-4 bg-white absolute bottom-7 animation-slide-up1' : 'animation-slide-down1'} `}>
+          <ul className={`list-none md:flex gap-10 md:space-x-4 ${isMobileMenuOpen ? 'flex flex-col mt-[1rem] w-[100%] my-[0.1rem] z-[99] gap-5 py-2 px-4 bg-white absolute bottom-7 animation-slide-up1' : 'animation-slide-down1'} `}>
             {navLinks.map((nav) => (
               <li
                 key={nav.id}
