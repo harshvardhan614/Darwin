@@ -1,7 +1,7 @@
 import {React,useState} from "react";
 import { Link } from "react-router-dom";
 import { logo } from "../../assets";
-
+import "./footer.css"
 
 export default function Footer() {
   const [active, setActive] = useState();
@@ -44,7 +44,7 @@ export default function Footer() {
 
 
           {/* <ul className='list-none hidden sm:flex flex-row gap-10'> */}
-          <ul className={`list-none md:flex gap-10 md:space-x-4 ${isMobileMenuOpen ? 'flex flex-col mt-[1rem] w-[100%] bg-white absolute bottom-7' : ''} `}>
+          <ul className={`list-none md:flex gap-10 md:space-x-4 ${isMobileMenuOpen ? 'flex flex-col mt-[1rem] w-[100%] bg-white absolute bottom-7 animation-slide-up1' : 'animation-slide-down1'} `}>
             {navLinks.map((nav) => (
               <li
                 key={nav.id}
