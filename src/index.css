@@ -216,7 +216,7 @@ tr{
   gap: 130px;
 }
 
-.BoxOut .boxHead{
+.boxHead{
   width: 350px;
 }
 
@@ -257,6 +257,12 @@ tr{
 }
 
 @media (max-width:425px) {
+
+  .Port div{
+    width: 240px;
+  }
+
+
 .UpHero{
   margin-top: 0px;
 }
@@ -281,6 +287,7 @@ tr{
 
 .boxHead {
   padding: 10px ;
+  width: 200px;
 }
 
 .boxHead h1 {
@@ -308,6 +315,31 @@ tr{
 .boxIn p {
   font-size: 10px;
   line-height: 12px;
+}
+
+.contact {  
+  gap: 25px;
+}
+
+.contact input{
+  width: 200px;
+}
+
+.contact label{
+  margin-right: 5px;
+  font-size: 8px;
+}
+
+.ContactHeading{
+  font-size: 48px;
+}
+
+.ContactHide{
+  display: none;
+}
+
+.contact a{
+  width: 240px;
 }
 
 
