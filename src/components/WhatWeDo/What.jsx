@@ -4,7 +4,7 @@ import { areaGRey, jupiter, mars, orange, tomato } from "../../assets";
 
 export default function What() {
   return (
-    <div className="flex items-center  w-full max-w-7xl static my-[120px] z-20 mx-auto">
+    <div className="flex items-center  w-full max-w-7xl static my-[120px] z-20 mx-auto" id="whatWeDo" style={{paddingTop:'20vh'}}>
       <div className="flex flex-col items-center w-full ">
         <div className="BoxOut flex items-center z-10">
           <div className="boxHead w-[600px]">

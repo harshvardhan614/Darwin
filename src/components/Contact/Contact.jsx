@@ -30,7 +30,7 @@ export default function Contact() {
     Aos.init({ duration: 1500 });
   }, []);
   return (
-    <div className="flex items-center  w-full max-w-7xl static z-20 mb-[300px] mx-auto">
+    <div className="flex items-center  w-full max-w-7xl static z-20 mb-[300px] mx-auto pt-[180px]" id="contact" s>
       <div className="absolute right-0 z-0 ">
         <img src={blueContact} alt="no img" className="w-[750px] h-auto" />
       </div>
@@ -61,27 +61,27 @@ export default function Contact() {
               data-aos="fade-left"
             >
               <tr className="flex items-center justify-end text-[0.85rem]">
-                <label className="mr-[20px]">御社名</label>
+                <label className="mr-[20px] ffamly">御社名</label>
                 <input type="text " className="w-[330px] h-10 " />
               </tr>
               <tr className="flex items-center justify-end text-[0.85rem]">
-                <label className="mr-[20px]">ご担当者名</label>
+                <label className="mr-[20px] ffamly">ご担当者名</label>
                 <input type="text" className="w-[330px]  h-10 " />
               </tr>
               <tr className="flex items-center justify-end text-[0.85rem]">
-                <label className="mr-[20px]">ご連絡先</label>
+                <label className="mr-[20px] ffamly">ご連絡先</label>
                 <input type="text" className="w-[330px]  h-10 " />
               </tr>
               <tr className="flex items-center justify-end text-[0.85rem]">
-                <label className="mr-[20px]">お問い合わせカテゴリ</label>
+                <label className="mr-[20px] ffamly">お問い合わせカテゴリ</label>
                 <input type="text" className="w-[330px]  h-10" />
               </tr>
               <tr className="flex items-center justify-end text-[0.85rem]">
-                <label className="mr-[20px]">御社業種</label>
+                <label className="mr-[20px] ffamly">御社業種</label>
                 <input type="text" className="w-[330px]  h-10" />
               </tr>
               <tr className="flex items-start justify-end text-[0.85rem]">
-                <label className="mr-[20px]">お問い合わせ内容</label>
+                <label className="mr-[20px] ffamly">お問い合わせ内容</label>
                 <input type="text" className="w-[330px]  h-[100px] " />
               </tr>
 

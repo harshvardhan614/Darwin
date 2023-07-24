@@ -16,6 +16,7 @@
   scroll-behavior: smooth;
   position: relative;
   max-width: 1350px;
+  
 }
 
 
@@ -26,6 +27,7 @@ html{
 
 body {
   background: linear-gradient(90deg, #FFEEEE 0%, #DDEFBB 100%);
+  overflow-x: hidden;
 
 }
 
@@ -54,8 +56,12 @@ body {
 
 .boxHead p{
   font-family: 'Zen Kaku Gothic New', sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.ffamly {
+  font-family: 'Zen Kaku Gothic New', sans-serif !important;
+
 }
 
 
@@ -343,4 +349,37 @@ tr{
 }
 
 
+}
+.darwinAboutMain {
+  margin-left: -170px;
+  margin-top: -72px;
+}
+.darwinAboutHead {
+  margin-left: -35px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: blue;
+}
+@media only screen and (max-width: 1300px) {
+  .darwinAboutMain {
+    margin-left: -150px;
+  }
+  .darwinAboutHead {
+    margin-left: -30px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .darwinAboutMain {
+    margin-left: 0px;
+   margin-top: 20px;
+
+  }
+  .darwinAboutHead {
+    margin-left: 0px;
+  }
 }

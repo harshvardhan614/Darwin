@@ -20,7 +20,7 @@ function RightMark(){
 
 export default function Hero() {
   return (
-    <div className='h-[90vh] flex items-center pl-[20px] w-full max-w-7xl static my-[100px] z-20 mx-auto UpHero' >
+    <div className='h-[70vh] flex items-center pl-[20px] w-full max-w-7xl static my-[100px] z-20 mx-auto UpHero' >
         <div className="flex flex-col ml-[80px] py-[40px] z-10 hero" data-aos="fade-right">
             <h1 className=' headText'>Empower.</h1>
             <h1 className=' headText'>Innovate.</h1>
