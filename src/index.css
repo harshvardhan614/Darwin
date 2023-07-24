@@ -179,6 +179,19 @@ tr{
 
 @media (max-width:768px) {
 
+  .Port{
+    margin-top: 20px;
+  }
+
+  .Port div{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .PortMR {
+    margin-left: 0;
+  }
+
   .darwinAbout img{
     width: 270px;
   }

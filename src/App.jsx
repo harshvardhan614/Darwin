@@ -27,13 +27,13 @@ function App() {
       ) : (
         <>
           <BrowserRouter>
-            {/* <Navbar /> */}
-            {/* <Hero /> */}
-            {/* <What /> */}
-            {/* <About /> */}
+            <Navbar />
+            <Hero />
+            <What />
+            <About />
             <Portfolio />
-            {/* <Contact /> */}
-            {/* <Footer /> */}
+            <Contact />
+            <Footer />
           </BrowserRouter>
         </>
       )}
