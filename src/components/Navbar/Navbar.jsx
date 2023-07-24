@@ -62,14 +62,14 @@ export default function Navbar() {
         <div className={`md:block ${isMobileMenuOpen? 'flex w-full absolute top-4 left-0 opacity-100 z-9999999' : 'hidden'}`}>
           {/* <div className={`md`}> */}
 
-            <ul className={`list-none md:flex gap-10 md:space-x-4 ${isMobileMenuOpen ? 'flex flex-col mt-[1rem] w-[100%] bg-white absolute top-5 animation-slide-down' : 'animation-slide-up'} `}>
+            <ul className={`list-none md:flex md:space-x-4 ${isMobileMenuOpen ? 'flex flex-col mt-[1rem] w-[100%] bg-[#FFEEEE] absolute top-5 animation-slide-down' : 'animation-slide-up'} `}>
               {/* <ul className="list-none hidden sm:flex flex-row gap-10 md:block"> */}
               {navLinks.map((nav) => (
                 <li
                 key={nav.id}
                 className={`${
                   active === nav.title ? "text-secondary" : "text-black"
-                } hover:text-danger text-[18px]  cursor-pointer`}
+                } hover:text-danger text-[18px]  cursor-pointer p-[10px]`}
                 onClick={() => setActive(nav.title)}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>

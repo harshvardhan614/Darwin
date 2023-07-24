@@ -44,13 +44,13 @@ export default function Footer() {
 
 
           {/* <ul className='list-none hidden sm:flex flex-row gap-10'> */}
-          <ul className={`list-none md:flex gap-10 md:space-x-4 ${isMobileMenuOpen ? 'flex flex-col mt-[1rem] w-[100%] bg-white absolute bottom-7 animation-slide-up1' : 'animation-slide-down1'} `}>
+          <ul className={`list-none md:flex md:space-x-4 ${isMobileMenuOpen ? 'flex flex-col mt-[1rem] w-[100%] bg-white absolute bottom-7 animation-slide-up1' : 'animation-slide-down1'} `}>
             {navLinks.map((nav) => (
               <li
                 key={nav.id}
                 className={`${
                   active === nav.title ? "text-black" : "text-black"
-                } hover:text-danger text-[18px]  cursor-pointer`}
+                } hover:text-danger text-[18px]  cursor-pointer p-[10px]`}
                 onClick={() => setActive(nav.title)}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
