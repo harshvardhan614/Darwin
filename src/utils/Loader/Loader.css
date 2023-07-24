@@ -8,13 +8,16 @@
   }
   
   .loading > div {
-    width: 10vmax;
-    height: 10vmax;
+    width: 6vmax;
+    height: 6vmax;
     border-bottom: 5px solid rgba(0, 0, 0, 0.719);
   
     border-radius: 50%;
   
     animation: loadingRotate 800ms linear infinite;
+  }
+  .imgg{
+    animation: fadeIn 3000ms ease-in-out;
   }
   
   @keyframes loadingRotate {
@@ -23,3 +26,11 @@
     }
   }
   
+  @keyframes fadeIn {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.2;
+    }
+  }
