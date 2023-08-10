@@ -86,7 +86,7 @@ export default function Navbar() {
 
         <div className="md:hidden">
           <button
-            className="text-white p-2"
+            className="text-black p-2"
             onClick={toggleMobileMenu}
           >
             {!isMobileMenuOpen ? (

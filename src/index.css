@@ -15,13 +15,14 @@
   font-family: 'Jost', sans-serif;
   scroll-behavior: smooth;
   position: relative;
-  max-width: 1350px;
+  max-width: 1360px;
   
 }
 
 
 html{
-  background-color: white;
+  background: linear-gradient(270deg, #FFEEEE 0%, #DDEFBB 100%);
+  overflow-x: hidden;
 }
 
 
@@ -149,7 +150,7 @@ tr{
 
 }
 
-@media (max-width:1024px) {
+@media (max-width:1020px) {
 
   .darwinAbout{
     padding: 50px 0;
@@ -158,12 +159,12 @@ tr{
   }
 
   .darwinAbout img{
-    width: 400px;
+    width: 450px;
     margin-bottom: 0;
   }
 
   .darwinAboutDATA{
-     width: 400px;
+     width: 500px;
   }
 
   .darwinAboutDATA p{
@@ -197,20 +198,7 @@ tr{
 
   .PortMR {
     margin-left: 0;
-  }
-
-  .darwinAbout img{
-    width: 270px;
-  }
-
-  .darwinAboutDATA{
-     width: 270px;
-  }
-
-  .darwinAboutDATA p{
-    font-size: 12px;
-    line-height: 14px;
-  }
+  }  
 
   .PortInside{
     margin-right: 50px ;
@@ -296,6 +284,7 @@ tr{
 .boxHead {
   padding: 10px ;
   width: 240px;
+  margin: 0 auto 20px;
 }
 
 .boxHead h1 {
@@ -325,12 +314,25 @@ tr{
   line-height: 12px;
 }
 
+.darwinAbout img{
+  width: 300px;
+}
+
+.darwinAboutDATA{
+   width: 300px;
+}
+
+.darwinAboutDATA p{
+  font-size: 12px;
+  line-height: 14px;
+}
+
 .contact {  
   gap: 25px;
 }
 
 .contact input{
-  width: 200px;
+  width: 180px;
 }
 
 .contact label{

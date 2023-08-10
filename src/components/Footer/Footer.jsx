@@ -44,7 +44,7 @@ export default function Footer() {
 
 
           {/* <ul className='list-none hidden sm:flex flex-row gap-10'> */}
-          <ul className={`list-none md:flex gap-10 md:space-x-4 ${isMobileMenuOpen ? 'flex flex-col mt-[1rem] w-[100%] my-[0.1rem] z-[99] gap-5 py-2 px-4 bg-white absolute bottom-7 animation-slide-up1' : 'animation-slide-down1'} `}>
+          <ul className={`list-none md:flex gap-5 md:space-x-4 ${isMobileMenuOpen ? 'flex flex-col mt-[1rem] w-[100%] my-[0.1rem] z-[99] py-2 px-4 bg-white absolute bottom-7 animation-slide-up1' : 'animation-slide-down1'} `}>
             {navLinks.map((nav) => (
               <li
                 key={nav.id}
@@ -77,7 +77,7 @@ export default function Footer() {
 
         <div className="md:hidden">
           <button
-            className="text-white p-2"
+            className="text-black p-2"
             onClick={toggleMobileMenu}
           >
             {!isMobileMenuOpen ? (
